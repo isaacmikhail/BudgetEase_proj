@@ -1,5 +1,6 @@
 import {useDispatch, useSelector} from 'react-redux';
 import{selectVenue} from '../redux/venueSlice';
+import '../styles/VenueSelector.css'
 
 const VenueSelector=()=>{
     const dispatch=useDispatch();
@@ -10,9 +11,9 @@ const VenueSelector=()=>{
     };
 
     return(
-        <div>
+        <div className="venue-selector">
             <h2>Select a Venue</h2>
-            <ul>
+            <ul className="venue-list">
                 {venues.map(venue=>(
                     <li key={venue.id}>
                         <button onClick={()=>handleSelect(venue.id)} disabled={selectedVenue?.id===venue.id}>

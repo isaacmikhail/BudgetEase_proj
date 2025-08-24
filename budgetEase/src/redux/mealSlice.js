@@ -14,7 +14,7 @@ const mealSlice=createSlice({
     name:'meal',
     initialState,
     reducers:{
-        selectMeal(state,action){
+        selectedMeal(state,action){
             state.selectedMeal=state.mealOptions.find(meal=>meal.id===action.payload)||null;
         },
         setGuestCount(state,action){

@@ -1,0 +1,29 @@
+/* styles/VenueSelector.css */
+.venue-selector {
+  margin: 20px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.venue-selector h2 {
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.venue-list button {
+  margin: 8px 0;
+  padding: 10px 14px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.venue-list button:hover {
+  background-color: #d5d5d5;
+}

@@ -1,0 +1,35 @@
+.add-on-container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.add-on-list {
+  list-style: none;
+  padding: 0;
+}
+
+.add-on-list li {
+  margin-bottom: 10px;
+}
+
+.add-on-list button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.add-on-list button:hover {
+  background-color: #e0e0e0;
+}
+
+.add-on-list .selected button {
+  background-color: #d1e7dd;
+  font-weight: bold;
+}
+
