@@ -4,7 +4,7 @@ import '../styles/VenueSelector.css'
 
 const VenueSelector=()=>{
     const dispatch=useDispatch();
-    const venues=useSelector(state=>state.vevnue.venues);
+    const venues=useSelector(state=>state.venue.venues);
     const selectedVenue=useSelector(state=>state.venue.selectedVenue);
     const handleSelect=(id)=>{
         dispatch(selectVenue(id));
